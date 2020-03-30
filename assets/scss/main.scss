@@ -1,0 +1,11 @@
+@import "normalize";
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+body {
+    &.full {
+        color: wheat;
+    }
+}
