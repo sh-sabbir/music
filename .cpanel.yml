@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/codeian1/music.codeian.win/wp-content/themes/music
+    - /bin/cp -R * $DEPLOYPATH
